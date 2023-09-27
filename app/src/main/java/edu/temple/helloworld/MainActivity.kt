@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             if(editTextView.text.toString() != ""){
                 displayTextView.text = "Hello, ${editTextView.text}"
             } else{
-                displayTextView.error = "Please enter a name"
+                editTextView.error = "Please enter a name"
             }
         }
 
